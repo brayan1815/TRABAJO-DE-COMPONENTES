@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url(estilo_aco/estilosac1.css);
+@import url(estilo_aco/variablesac.css);
+@import url(estilo_aco/estilosac2.css);
+@import url(estilo_aco/estilosac3.css);
+@import url(estilo_aco/estilosac4.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.acordeones{
+    width: 400px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    align-content: center;
+    
+}
+
+.ac{
+    margin: 30px;
+}
+
+.acordeones__titulo{
+    background-color: brown;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.acordeones__contenido{
+    background-color: brown;
+}

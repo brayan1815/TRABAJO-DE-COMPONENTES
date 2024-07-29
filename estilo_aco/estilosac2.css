@@ -1,0 +1,38 @@
+.acordeones2{
+    width: 400px;
+    background-color: var(--color2);
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    align-content: center;
+    font-family: "Exo 2", sans-serif;
+    border-radius: 20px;
+}
+
+.ac2{
+    margin: 30px;
+}
+
+.acordeones2__titulo{
+    background-color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    list-style: none;
+    text-align: center;
+}
+.acordeones2__titulo:hover{
+    border: solid black;
+    transition: all 70ms;
+}
+
+.acordeones2__contenido:active{
+    transition: all 20s;
+}
+
+.acordeones2__contenido{
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+

@@ -1,3 +1,8 @@
+@import url(estilos_grupobo/grupo1_botones.css);
+@import url(estilos_grupobo/grupo2_botones.css);
+@import url(estilos_grupobo/grupo3_botones.css);
+@import url(estilos_grupobo/grupo4_botones.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -6,22 +11,8 @@
 
 :root{
     --color_fondo:aqua;
-}
-
-.grupo__botones{
-    display: flex;
-    width: 200px;
-    height: 30px;
-    background-color: var(--color_fondo);
-    justify-content: space-around;
-}
-
-.boton{
-    background-color: var(--color_fondo);
-    border: none;
-}
-
-.boton:active{
-    background-color: black;
-    color: white;
+    --color1:#66D7D1;
+    --color2: #55b4e7;
+    --color3: #f26ab5;
+    --color4: #f5cf54;
 }

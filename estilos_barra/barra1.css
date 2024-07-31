@@ -1,0 +1,47 @@
+.nav1{
+    width: 600px;
+    margin: 10px auto;
+    background-color: aqua;
+}
+
+.barra_horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra_horizontal .opciones .op{
+    display: block;
+    padding: 15px 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.opciones:hover{
+    background-color: black;
+    color: white;
+}
+
+.barra__vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: black;
+}
+
+.barra_horizontal .opciones:hover .barra__vertical{
+    display: block;
+}
+
+.subo:hover{
+    background-color: red;
+    color: white;
+}
+
+.subo{
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+}

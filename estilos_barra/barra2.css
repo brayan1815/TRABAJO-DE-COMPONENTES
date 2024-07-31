@@ -1,0 +1,55 @@
+.nav2{
+    width: 150px;
+    margin: 10px auto;
+    height: 200px;
+    background-color: aqua;
+}
+
+.barra_vertical1{
+    list-style: none;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.barra_vertical1 .opciones1 .op1{
+    display: block;
+    padding: 15px 20px;
+    color: red;
+    text-decoration: none;
+    
+}
+
+.opciones1:hover{
+    color: white;
+}
+
+.barra__horizontal1{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+
+}
+
+.barra_vertical1 .opciones1:hover .barra__horizontal1{
+    display: block;
+    /* position: relative;
+    left: 120px;
+    top: -48px;  */
+}
+
+.subo1:hover{
+    background-color: red;
+    color: white;
+}
+
+.subo1{
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    top: -48px; 
+    background-color: black;
+}

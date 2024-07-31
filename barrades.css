@@ -1,53 +1,17 @@
+@import url(estilos_barra/barra1.css);
+@import url(estilos_barra/barra2.css);
+@import url(estilos_barra/barra3.css);
+@import url(estilos_barra/barra4.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav{
-    width: 600px;
-    margin: 10px auto;
-    background-color: aqua;
-}
-
-.barra_horizontal{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.barra_horizontal .opciones .op{
-    display: block;
-    padding: 15px 20px;
-    color: red;
-    text-decoration: none;
-}
-
-.opciones:hover{
-    background-color: black;
-    color: white;
-}
-
-.barra__vertical{
-    position: absolute;
-    display: none;
-    list-style: none;
-    width: 200px;
-    background-color: black;
-}
-
-.barra_horizontal .opciones:hover .barra__vertical{
-    display: block;
-}
-
-.subo:hover{
-    background-color: red;
-    color: white;
-}
-
-.subo{
-    display: block;
-    color: white;
-    padding: 15px 15px;
-    text-decoration: none;
+:root{
+    --color_fondo:aqua;
+    --color1:#66D7D1;
+    --color2: #55b4e7;
+    --color3: #f26ab5;
+    --color4: #f5cf54;
 }

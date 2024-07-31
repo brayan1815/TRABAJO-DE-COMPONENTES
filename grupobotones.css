@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color_fondo:aqua;
+}
+
+.grupo__botones{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: var(--color_fondo);
+    justify-content: space-around;
+}
+
+.boton{
+    background-color: var(--color_fondo);
+    border: none;
+}
+
+.boton:active{
+    background-color: black;
+    color: white;
+}

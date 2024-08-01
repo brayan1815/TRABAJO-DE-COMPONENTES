@@ -1,22 +1,14 @@
-@import url(estilos_grupobo/grupo1_botones.css);
-@import url(estilos_grupobo/grupo2_botones.css);
-@import url(estilos_grupobo/grupo3_botones.css);
-@import url(estilos_grupobo/grupo4_botones.css);
+@import url(estilos_alertas/alerta1.css);
+@import url(estilos_alertas/alerta2.css);
+@import url(estilos_alertas/alerta3.css);
+@import url(estilos_alertas/alerta4.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root{
-    --color_fondo:aqua;
-    --color1:#66D7D1;
-    --color2: #55b4e7;
-    --color3: #f26ab5;
-    --color4: #f5cf54;
 }
 
 

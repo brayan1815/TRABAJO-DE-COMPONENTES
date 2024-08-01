@@ -4,6 +4,7 @@
 @import url(estilo_aco/estilosac2.css);
 @import url(estilo_aco/estilosac3.css);
 @import url(estilo_aco/estilosac4.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -32,4 +33,45 @@
 
 .acordeones__contenido{
     background-color: brown;
+}
+
+
+
+
+
+.botcomponentes{
+    display: flex;
+    width: 700px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    border:solid var(--color4);
+    border-radius: 15px;
+}
+
+.comp{
+    display: block;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: var(--color4);
+    border: solid var(--color4);
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.comp:hover{
+    background-color: var(--color4);
+    color: white;
+}
+
+.comp:active{
+    background-color: orange;
+    color: black;
 }

@@ -1,0 +1,13 @@
+.alerta1{
+    display: block;
+    width: 400px;
+    border: solid black;
+    background-color: #031633;
+    color: #084298;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    border: solid #084298;
+    font-family: "Hind Siliguri", sans-serif;
+    border-radius: 5px;
+}

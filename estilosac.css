@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.acordeones{
+.acordeon {
     width: 400px;
     background-color: aquamarine;
     margin: 20px auto;
@@ -21,17 +21,17 @@
     
 }
 
-.ac{
+.acordeon__contenedor{
     margin: 30px;
 }
 
-.acordeones__titulo{
+.acordeon__titulo{
     background-color: brown;
     padding: 12px;
     cursor: pointer;
 }
 
-.acordeones__contenido{
+.acordeon__contenido{
     background-color: brown;
 }
 

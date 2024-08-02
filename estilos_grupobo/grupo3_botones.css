@@ -1,4 +1,4 @@
-.grupo3__botones{
+.botones--rosadosborde{
     display: flex;
     width: 400px;
     height: 35px;
@@ -7,9 +7,10 @@
     border-radius: 15px;
     align-items: center;
     border: solid var(--color3);
+    background-color: white;
 }
 
-.boton3{
+.botones__grupo--bordes{
     background-color: white;
     width: 100px;
     height: 25px;
@@ -17,13 +18,13 @@
     border-radius: 15px;
 }
 
-.boton3:hover{
+.botones__grupo--bordes:hover{
     border: solid var(--color3);
     border-radius: 15px;
     transition: all 0.5s;
 }
 
-.boton3:active{
+.botones__grupo--bordes:active{
     border: solid var(--color3);
     border-radius: 15px;
     background-color: var(--color3);

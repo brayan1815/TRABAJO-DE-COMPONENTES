@@ -56,3 +56,75 @@
     background-color: orange;
     color: black;
 }
+
+
+/* ----------------------------------------------------------------------------- */
+
+.alerta{
+    display: block;
+    width: 400px;
+    border: solid black;
+    background-color: #031633;
+    color: #084298;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    border: solid #084298;
+    font-family: "Hind Siliguri", sans-serif;
+    border-radius: 5px;
+}
+
+/* --------------------------------------------------------------------------------- */
+.alerta--negrita{
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #032830;
+    color: #087990;
+    border-left: solid 4px #087990;
+    font-family: "Hind Siliguri", sans-serif;
+
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.alerta--linea{
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #2c0b0e;
+    color: #842029;
+    border: solid #842029;
+    border-radius: 5px;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.alerta__link{
+    color: #842029;
+}
+
+.alerta__linea{
+    border: solid 1px #842029;
+ }
+
+ /* ---------------------------------------------------------------------------------- */
+ .alerta--logo{
+    display: flex;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid black;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #332701;
+    border: solid #997404;
+    color: #997404;
+    font-family: "Hind Siliguri", sans-serif;
+    border-radius: 5px;
+}
+
+.material-symbols-outlined{
+    margin-right: 10px;
+}

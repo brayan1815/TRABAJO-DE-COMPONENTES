@@ -54,3 +54,255 @@
     background-color: orange;
     color: black;
 }
+
+/* -------------------------------------------------------------------------- */
+
+.menu{
+    width: 600px;
+    margin: 10px auto;
+    background-color: aqua;
+}
+
+.menu__barrahorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__barrahorizontal .menu__opciones .menu__opcion{
+    display: block;
+    padding: 15px 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.menu__opciones:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu__barravertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    /* background-color: black; */
+}
+
+.menu__barrahorizontal .menu__opciones:hover .menu__barravertical{
+    display: block;
+}
+
+.menu_subopcion:hover{
+    background-color: red;
+    color: white;
+}
+
+.menu_subopcion{
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: black;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.menu--vertical{
+    width: 150px;
+    margin: 10px auto;
+    height: 200px;
+    background-color: aqua;
+}
+
+.menu__barrahorizontal--vertical{
+    list-style: none;
+    display: block;
+}
+
+.menu__barrahorizontal--vertical .menu__opciones--lateral .menu__opcion--vertical{
+    display: block;
+    padding: 15px 20px;
+    color: red;
+    text-decoration: none;
+    
+}
+
+
+.menu__opciones--lateral:hover{
+    color: white;
+}
+
+.menu__barravertical--lateral{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+
+}
+
+.menu__barrahorizontal--vertical .menu__opciones--lateral:hover .menu__barravertical--lateral{
+    display: block;
+    /* position: relative;
+    left: 120px;
+    top: -48px;  */
+}
+
+.menu__subopcion--lateral:hover{
+    background-color: red;
+    color: white;
+}
+
+.menu__subopcion--lateral{
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    top: -48px; 
+    background-color: black;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+.menu--vertical-azul{
+    width: 155px;
+    margin: 20px auto;
+     height: 225px;
+    background-color: var(--color2);
+    text-align: center;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.menu__barrahorizontal--vertical-azul{
+    list-style: none;
+    display: block;
+}
+
+.menu__barrahorizontal--vertical-azul .menu__opciones--lateral-azul .menu__opcion--vertical-azul{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu__opcion--vertical-azul{
+    background-color: var(--color2);
+    border-radius: 15px;
+}
+
+.menu__opcion--vertical-azul:hover{
+    background-color: var(--color2);
+    border-radius: 15px;
+}
+
+.menu__opciones--lateral-azul{
+    border: solid var(--color2);
+    border-radius: 15px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.menu__opciones--lateral-azul:hover{
+    border: solid white;
+    border-radius: 15px;
+    background-color: var(--color2);
+}
+
+.menu__barravertical--lateral-azul{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+
+}
+
+.menu__barrahorizontal--vertical-azul .menu__opciones--lateral-azul:hover .menu__barravertical--lateral-azul{
+    display: block;
+}
+
+.menu__subopcion--lateral-azul:hover{
+    background-color: var(--color2);
+    color: white;
+    transition: all 1s;
+}
+
+.menu__subopcion--lateral-azul{
+    display: block;
+    color: var(--color2);
+    padding: 15px 15px;
+    text-decoration: none;
+    position: relative;
+    left: 160px;
+    top: -48px; 
+    background-color: white;
+    border: solid var(--color2);
+    border-radius: 15px;
+    margin: 1px;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+.menu--rosado{
+    width: 600px;
+    height: 60px;
+    margin: 15px auto;
+    background-color: var(--color3);
+    border-radius: 15px;
+    background-color: white;
+    border: solid var(--color3);
+    border-radius: 15px;    
+    align-content: center;
+}
+
+.menu__barrahorizontal--rosado{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__barrahorizontal--rosado .menu__opciones--rosado .menu__opcion--rosado{
+    display: block;
+    padding: 15px 20px;
+    color: var(--color3);
+    text-decoration: none;
+}
+
+.menu__opciones--rosado:hover{
+    border: solid var(--color3);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.menu__barravertical--blanco{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.menu__barrahorizontal--rosado .menu__opciones--rosado:hover .menu__barravertical--blanco{
+    display: block;
+}
+
+.menu__subopcion--blanco:hover{
+    background-color: var(--color3);
+    color: white;
+}
+
+.menu__subopcion--blanco{
+    display: block;
+    color: var(--color3);
+    padding: 15px 15px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    background-color: white;
+    border: solid var(--color3);
+    border-radius: 15px;
+    margin: 2px;
+}

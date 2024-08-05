@@ -11,6 +11,14 @@
     --color2: #55b4e7;
     --color3: #f26ab5;
     --color4: #f5cf54;
+    --blanco: white;
+    --esquina_redon: 15px;
+    --ancho_acordeon: 400px;
+    --negro:black;
+    --naranja: orange;
+    --agua_marina:aquamarine;
+    --cafe:brown;
+    --tamaño_fuente:15px;
 }
 
 .botcomponentes{
@@ -18,13 +26,13 @@
     width: 700px;
     height: 40px;
     margin: 10px auto;
-    background-color: white;
+    background-color: var(--blanco);
     list-style: none;
     text-decoration: none;
     justify-content: space-around;
     align-items: center;
     border:solid var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redon);
 }
 
 .comp{
@@ -36,25 +44,25 @@
     text-decoration: none;
     color: var(--color4);
     border: solid var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redon);
     font-family: "Inter", sans-serif;
 }
 
 .comp:hover{
     background-color: var(--color4);
-    color: white;
+    color: var(--blanco);
 }
 
 .comp:active{
-    background-color: orange;
-    color: black;
+    background-color: var(orange);
+    color: var(--negro);
 }
 
 
 /* ---------------------------------------------------------------------- */
 .acordeon {
-    width: 400px;
-    background-color: aquamarine;
+    width: var(--ancho_acordeon);
+    background-color: var(--agua_marina);
     margin: 20px auto;
     display: block;
     padding: 20px;
@@ -64,7 +72,7 @@
 
 .acordeon__contenedor{
     margin: 30px;
-    background-color: brown;
+    background-color: var(--cafe);
 }
 
 .acordeon__titulo{
@@ -75,51 +83,51 @@
 /* -------------------------------------------------------------------------- */
 
 .acordeon--celeste{
-    width: 400px;
+    width: var(--ancho_acordeon);
     background-color: var(--color1);
     margin: 20px auto;
     display: block;
     padding: 20px;
     align-content: center;
-    border-radius: 20px;
+    border-radius: var(--esquina_redon);
 }
 
 .acordeon__contenedor--blanco{
     margin: 30px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--blanco);
 }
 
 .acordeon__titulo--fuenteexo2{
     padding: 12px;
     cursor: pointer;
     margin-bottom: 2px;
-    font-family: "Exo 2", sans-ser
+    font-family: "Exo 2", sans-ser;
 }
 
 .acordeon__parrafo--centrado{
-    background-color: white;
+    background-color: var(--blanco);
     text-align: center;
-    font-size: 15px;
+    font-size: var(--tamaño_fuente);
     padding: 5px;
 }
 
 /* -------------------------------------------------------------------------- */
 
 .acordeon--azul{
-    width: 400px;
+    width: var(--ancho_acordeon);
     background-color: var(--color2);
     margin: 20px auto;
     display: block;
     padding: 20px;
     align-content: center;
     font-family: "Exo 2", sans-serif;
-    border-radius: 20px;
+    border-radius: var(--esquina_redon);
 }
 
 .acordeon__contenedor--blanco-redondeado{
     margin: 30px;
-    border-radius: 15px;
-    background-color: #fff;
+    border-radius: var(--esquina_redon);
+    background-color: var(--blanco);
 }
 
 .acordeon__titulo--centrado{
@@ -131,20 +139,20 @@
 
 .acordeon__parrafo--centrado-fuenteexo2{
     text-align: center;
-    font-size: 15px;
+    font-size: var(--tamaño_fuente);
 }
 
 /* -------------------------------------------------------------------------------- */
 
 .acordeon--rosado{
-    width: 400px;
+    width: var(--ancho_acordeon);
     background-color: var(--color3);
     margin: 20px auto;
     display: block;
     padding: 20px;
     align-content: center;
     font-family: "Exo 2", sans-serif;
-    border-radius: 20px;
+    border-radius: var(--esquina_redon);
 }
 
 .acordeon__contenedor--rosado{
@@ -155,24 +163,24 @@
 .acordeon__titulo--rosado{
     padding: 12px;
     cursor: pointer;
-    border-radius: 15px;
-    border: solid 1px black;
-    background-color: white;
+    border-radius: var(--esquina_redon);
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
 }
 
 .acordeon__titulo--rosado:hover{
     background-color: var(--color3);
     transition: all 1s;
-    color: #fff;
+    color: var(--blanco);
 
 }
 .acordeon__parrafo--rosado{
     margin-top: 3px;
-    border-radius: 15px 15px 15px 15px;
-    border: solid 1px black;
+    border-radius: var(--esquina_redon);
+    border: solid 1px var(--negro);
     text-align: center;
-    font-size: 15px;
-    color: white;
+    font-size: var(--tamaño_fuente);
+    color: var(--blanco);
     padding: 5px;
     background-color: var(--color3);
 }

@@ -13,6 +13,10 @@
     --color2: #55b4e7;
     --color3: #f26ab5;
     --color4: #f5cf54;
+    --blanco:white;
+    --naranja:orange;
+    --negro:black;
+    --esquina_redondeada:15px;
 }
 
 
@@ -21,13 +25,13 @@
     width: 700px;
     height: 40px;
     margin: 10px auto;
-    background-color: white;
+    background-color: var(--blanco);
     list-style: none;
     text-decoration: none;
     justify-content: space-around;
     align-items: center;
     border:solid var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
 }
 
 .comp{
@@ -39,18 +43,18 @@
     text-decoration: none;
     color: var(--color4);
     border: solid var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
     font-family: "Inter", sans-serif;
 }
 
 .comp:hover{
     background-color: var(--color4);
-    color: white;
+    color: var(--blanco);
 }
 
 .comp:active{
-    background-color: orange;
-    color: black;
+    background-color: var(--naranja);
+    color: var(--negro);
 }
 
 
@@ -63,7 +67,7 @@
     background-color: var(--color1);
     justify-content: space-around;
     margin: 10px auto;
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
 }
 
 .botones__grupo{
@@ -74,8 +78,8 @@
 
 .botones__grupo:hover{
     background-color: rgb(170, 218, 230);
-    color: black;
-    border-radius: 15px;
+    color: var(--negro);
+    border-radius: var(--esquina_redondeada);
 }
 
 /* --------------------------------------------------------------- */
@@ -104,7 +108,7 @@
     display: inline-flex;
     width: 100px;
     height: 50px;
-    background-color: white;
+    background-color: var(--blanco);
     cursor: pointer;
     justify-content: space-around;
     align-items: center;
@@ -113,19 +117,19 @@
 }
 .botonrad__texto:first-of-type{
     border-bottom: none;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: var(--esquina_redondeada) var(--esquina_redondeada) 0 0;
 }
 
 .botonrad__texto:last-of-type{
     border-top: none;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 var(--esquina_redondeada) var(--esquina_redondeada);
 }
 
 .botonrad__boton:checked + .botonrad__texto,
 .botonrad__boton--boton2:checked + .botonrad__texto,
 .botonrad__boton--boton3:checked + .botonrad__texto{
     background-color: var(--color2);
-    color: white;
+    color: var(--blanco);
     transition:all 1s;
 }
 
@@ -137,31 +141,31 @@
     height: 35px;
     justify-content: space-around;
     margin: 10px auto;
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
     align-items: center;
     border: solid var(--color3);
-    background-color: white;
+    background-color: var(--blanco);
 }
 
 .botones__grupo--bordes{
-    background-color: white;
+    background-color: var(--blanco);
     width: 100px;
     height: 25px;
-    border: solid white;
-    border-radius: 15px;
+    border: solid var(--blanco);
+    border-radius: var(--esquina_redondeada);
 }
 
 .botones__grupo--bordes:hover{
     border: solid var(--color3);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
     transition: all 0.5s;
 }
 
 .botones__grupo--bordes:active{
     border: solid var(--color3);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
     background-color: var(--color3);
-    color: white;
+    color: var(--blanco);
 }
 
 /* --------------------------------------------------------------- */
@@ -174,7 +178,7 @@
     align-content: center;
     text-align: center;
     border: solid var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
 }
 
 .botonrad__boton--amarillo,
@@ -192,19 +196,19 @@
     display: inline-flex;
     width: 100px;
     height: 50px;
-    background-color: white;
+    background-color: var(--blanco);
     cursor: pointer;
     justify-content: space-around;
     align-items: center;
     border: solid var(--color4);
     color: var(--color4);
-    border-radius: 15px;
+    border-radius: var(--esquina_redondeada);
 }
 
 .botonrad__boton--amarillo:checked + label,
 .botonrad__boton--boton2-amarillo:checked + label,
 .botonrad__boton--boton3-amarillo:checked + label{
     background-color: var(--color4);
-    color: white;
+    color: var(--blanco);
     transition:all 1s;
 }
